@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="cn">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<title>波士顿之家-波士顿最好的留学生活机构</title>
+
+	<link rel="stylesheet" type="text/css" href="./style/common.css">
+   <link rel="stylesheet" href="./style/topMenuStyles.css">
+	<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="./js/jquery.touchSwipe.min.js"></script>
+
+  <script type="text/javascript">
+      $(window).load(function(){
+      	// modified by wenjing . 打开时候自动
+  	   $(".container").addClass("open-sidebar");
+        $("[data-toggle]").click(function() {
+          var toggle_el = $(this).data("toggle");
+          $(toggle_el).toggleClass("open-sidebar");
+        });
+         $(".swipe-area").swipe({
+              swipeStatus:function(event, phase, direction, distance, duration, fingers)
+                  {
+                      if (phase=="move" && direction =="right") {
+                           $(".container").addClass("open-sidebar");
+                           return false;
+                      }
+                      if (phase=="move" && direction =="left") {
+                           $(".container").removeClass("open-sidebar");
+                           return false;
+                      }
+                  }
+          }); 
+      }
+
+      );
+      
+    </script>
+</head>
+<body>
+<!-- <img src="./images/icon/logo.png" alt="test"></img> -->
+<div class="thirdtoolbar comWidth">
+   <a class = "login_button fr" href="#">login</a>
+   <span class = "fr">&nbsp&nbsp&nbsp</span> <a class = "messeage fr" href="#">message</a>
+</div>
+<!-- todo 需要一个js控制小屏幕的时候的问题 -->
+<div class="top-container comWidth">
+	<a class="logo-href fl" href="#"><img src="images/icon/logo2.png" alt="test"></img></a>
+   <!-- <div class = "login_block fr "><button class = "loginButton"> 登录</button></div> -->
+	<div class= "top-right fr">波士顿最好的留学生活机构</div>
+</div>
+
+<!-- <div  id = "topNav">
+<div class ='fl' id = "leftButtonMenu">
+   <li class='left_menu_button' style="float: left"><a id="menubtn" href="#" class="fl" title="Menu">☰</a></li> 
+</div> -->
+<div id='cssmenu' class ="comWidth">
+
+<ul>
+
+     <li class='last'><a href='#'><span>论坛</span></a></li>
+   <li class='active has-sub'><a href='#'><span>套餐服务介绍</span></a>
+      <ul>
+         <li class='has-sub'><a href='#'><span>套餐服务一</span></a>
+            <ul>
+               <li><a href='#'><span>Sub Product</span></a></li>
+               <li class='last'><a href='#'><span>Sub Product</span></a></li>
+            </ul>
+         </li>
+         <li class='has-sub'><a href='#'><span>套餐服务二</span></a>
+            <ul>
+               <li><a href='#'><span>Sub Product</span></a></li>
+               <li class='last'><a href='#'><span>Sub Product</span></a></li>
+            </ul>
+         </li>
+      </ul>
+   </li>
+   <li><a href='#'><span>北美增值</span></a>
+     <ul>
+         <li class='has-sub'><a href='#'><span>资产管理</span></a>
+            <ul>
+               <li><a href='#'><span>Sub Product</span></a></li>
+               <li class='last'><a href='#'><span>Sub Product</span></a></li>
+            </ul>
+         </li>
+          <li class='has-sub'><a href='#'><span>房产业务</span></a>
+         <li class='has-sub'><a href='#'><span>法律业务</span></a>
+            <li class='has-sub'><a href='#'><span>移民业务</span></a>
+            <ul>
+               <li><a href='#'><span>Sub Product</span></a></li>
+               <li class='last'><a href='#'><span>Sub Product</span></a></li>
+            </ul>
+         </li>
+      </ul>
+
+   </li>
+   <li class='last'><a href='#'><span>北美留学</span></a>
+     <ul>
+         <li class='has-sub'><a href='#'><span>本硕留学</span></a>
+            <ul>
+               <li><a href='#'><span>Sub Product</span></a></li>
+               <li class='last'><a href='#'><span>Sub Product</span></a></li>
+            </ul>
+         </li>
+         <li class='has-sub'><a href='#'><span>高中留学</span></a></li>
+          <li class='has-sub'><a href='#'><span>夏令营</span></a></li>
+      </ul>
+      </li>
+      <li class='left_menu_button'>
+      <a data-toggle=".container" id="sidebar-toggle">☰</a>
+      </li>
+</ul>
+</div>
+<!-- </div> -->
+<div class="container">
+      <div id="sidebar">
+          <ul>
+              <li class="sidebarSubTitle"><a href="#">北美留学</a></li>
+              <li class="sidebarSubContent"><a href="#">本硕留学</a></li>
+              <li class="sidebarSubContent"><a href="#">高中留学</a></li>
+              <li class="sidebarSubContent"><a href="#">夏令营</a></li>
+              <li class="sidebarSubTitle"><a href="#">北美增值</a></li>
+              <li class="sidebarSubContent"><a href="#">资产管理</a></li>
+              <li class="sidebarSubContent"><a href="#">房屋业务</a></li>
+              <li class="sidebarSubContent"><a href="#">法律业务</a></li>
+              <li class="sidebarSubContent"><a href="#">移民业务</a></li>
+              <li class="sidebarSubTitle"><a href="#">套餐服务</a></li>
+              <li class="sidebarSubTitle"><a href="#">关于我们</a></li>
+          </ul>
+      </div>
+      <div class="main-content">
+          <div class="swipe-area"></div>
+       <!--    <a href="#" data-toggle=".container" id="sidebar-toggle">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+          </a> -->
+          <div class="content">
+          
+          <div class = "rightContentArea">北美留学</div>
+          <div class = "rightContentArea rightContentAreaGrey">北美增值</div>
+          <div class = "rightContentArea">套餐服务</div>
+		  <div class = "rightContentArea rightContentAreaGrey">论坛</div>
+		  <div class = "rightContentArea">关于我们</div>
+          </div>
+      </div>
+    </div>
+
+</body>
+</html>
