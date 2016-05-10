@@ -12,11 +12,14 @@
 
   <script type="text/javascript">
       $(window).load(function(){
+        //modified by wenjing , 禁止滚动条
+        $(document.body).addClass("html-body-overflow");
       	// modified by wenjing . 打开时候自动
   	   $(".container").addClass("open-sidebar");
         $("[data-toggle]").click(function() {
           var toggle_el = $(this).data("toggle");
           $(toggle_el).toggleClass("open-sidebar");
+          
         });
          $(".swipe-area").swipe({
               swipeStatus:function(event, phase, direction, distance, duration, fingers)
@@ -31,9 +34,8 @@
                       }
                   }
           }); 
-      }
-
-      );
+  
+       });
       
     </script>
 </head>
@@ -137,7 +139,48 @@
           </a> -->
           <div class="content">
           
-          <div class = "rightContentArea">北美留学
+          <div class = "rightContentArea">
+
+
+  <div class="card-container">
+    <div class="card">
+      <div class="face front">
+        <img width="300px" src="logo.svg">
+      </div>
+      <div class="face back">
+        <h3>Web Ascender</h3>
+        <p>Web Ascender is an innovation services company that truly cares about your happiness and the success of your project. We are leaders in web development, mobile applications and internet marketing, but our team doesn't just make beautiful digital products. We successfully solve real problems for people and businesses.</p>
+        <a href="/Contact" class="btn btn-block btn-outline">Learn More &rsaquo;</a>
+      </div>
+    </div>
+  </div>
+
+    <div class="card-container">
+    <div class="card">
+      <div class="face front">
+        <img width="300px" src="logo.svg">
+      </div>
+      <div class="face back">
+        <h3>Web Ascender</h3>
+        <p>Web Ascender is an innovation services company that truly cares about your happiness and the success of your project. We are leaders in web development, mobile applications and internet marketing, but our team doesn't just make beautiful digital products. We successfully solve real problems for people and businesses.</p>
+        <a href="/Contact" class="btn btn-block btn-outline">Learn More &rsaquo;</a>
+      </div>
+    </div>
+  </div>
+
+    <div class="card-container">
+    <div class="card">
+      <div class="face front">
+        <img width="300px" src="logo.svg">
+      </div>
+      <div class="face back">
+        <h3>Web Ascender</h3>
+        <p>Web Ascender is an innovation services company that truly cares about your happiness and the success of your project. We are leaders in web development, mobile applications and internet marketing, but our team doesn't just make beautiful digital products. We successfully solve real problems for people and businesses.</p>
+        <a href="/Contact" class="btn btn-block btn-outline">Learn More &rsaquo;</a>
+      </div>
+    </div>
+  </div>
+
 
           </div>
           <div class = "rightContentArea rightContentAreaGrey">北美增值
