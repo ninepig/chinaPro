@@ -1,7 +1,9 @@
  @import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
     body{font-family: 'Lato', sans-serif;}
     .card-container{
-    width:300px;height:60%;
+    /*width:250px;*/
+    width:19%;
+    height:60%;
     position: relative;
     perspective: 800px;
   /*  margin:0 auto;*/
@@ -10,6 +12,8 @@
     margin-top: 60px;
      margin-left: 20px;*/
   margin: 60px 20px 0 20px;
+ 
+
     }
     
     .card{
@@ -17,25 +21,48 @@
     position: absolute;
     width: 100%;
     height: 100%;
+
     }
+     .card h2{color:#fff;}
     .card h3{color:#fff;}
     .card p{color:#fff;font-family: 'Lato', sans-serif;font-weight:300;}
     .card:hover .front {
     transform: rotateY(-180deg);
     }
+
+
+   .card:hover .front2 {
+    transform: rotateY(-180deg);
+    }
+
     .card:hover .back {
     transform: rotateY(0deg);
     }
+    .card:hover .back2 {
+    transform: rotateY(0deg);
+    }
     .face {
+
     position: absolute;
     width: 100%;
     height: 100%;
     transform-style: preserve-3d; backface-visibility: hidden; transition: 0.5s;
+
+    /*圆角*/
+    border-radius:10px;
+    -moz-border-radius:10px; /* Old Firefox */
+    box-shadow: 4px 4px 2px #888888;
     }
     .face.front{
-    background:#000;
+    background:#4CAF50;
     transform: rotateY(0deg);
     }
+
+       .face.front2{
+    background:#555555;
+    transform: rotateY(0deg);
+    }
+
     .face.back {
     display: block;
     transform: rotateY(180deg);
@@ -44,6 +71,37 @@
     color: white;
     text-align: left;
     background-color: #333;
+    }
+
+
+        .face.back2 {
+    display: block;
+    transform: rotateY(180deg);
+    box-sizing: border-box;
+    padding: 20px;
+    color: white;
+    text-align: left;
+    background-color: #555555;
+    }
+
+      .face.back {
+    display: block;
+    transform: rotateY(180deg);
+    box-sizing: border-box;
+    padding: 20px;
+    color: white;
+    text-align: left;
+    background-color: #4CAF50;
+    }
+
+          .face.back2 {
+    display: block;
+    transform: rotateY(180deg);
+    box-sizing: border-box;
+    padding: 20px;
+    color: white;
+    text-align: left;
+    background-color: #555555;
     }
     .card a.btn.btn-block{display:block;}
     .card a.btn.btn-outline{background:transparent;border:1px solid #fff;border-radius:3px;padding:10px;color:#fff;text-align:center;text-decoration:none;}

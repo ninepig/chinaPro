@@ -52,12 +52,14 @@ a{text-decoration:none;}
           transition:  left 0.4s ease-in-out;
       }
       .container.open-sidebar {
-          left: 240px;
+          left: 180px;
+          /*如果用百分比 用14%差不多比较合适 ，如果用14%的百分比，则要考虑字体向用右浮动*/
+            /*left: 14%;*/
       }
       
       .swipe-area {
           position: absolute;
-          width: 25px;
+          width: 35px;
           left: 0;
            top: 0;
           height: 100%;
@@ -68,9 +70,9 @@ a{text-decoration:none;}
       #sidebar {
           background: #ffffff;
           position: absolute;
-          width: 240px;
+          width: 180px;
           height: 100%;
-          left: -240px;
+          left: -180px;
           box-sizing: border-box;
           -moz-box-sizing: border-box;
       }
@@ -153,13 +155,63 @@ a{text-decoration:none;}
         width: 100%
       }
       .rightContentArea{
-        height: 25%;
+        height: 28%;
         width: 100%;
+      }
+      .aboutusContentArea{
+        height: 16%;
+        width: 100%
       }
       .rightContentAreaGrey{
         background: #f1f1f1
 
       }
+
+      .applyingschooldetail{
+        
+        width: 20%;
+        /*height: 90%;*/
+        /*position: relative;*/
+        margin: 25px 5px 0 5px;
+        /*background: gray;*/
+        
+      }
+  
+      .beimeizengzhi{
+        width:  20%;
+        margin: 25px 5px 0px 20px;
+      }
+
+      .blankpacefortaocan{
+    
+          margin: 25px 5px 0 5px;
+              /* 20 就和上下对齐*/
+          width: 20%;
+      }
+
+/*页尾介绍*/
+.foot{
+  width: 80%;
+  height: 80%;
+  padding-top: 30px;
+  padding-left: 50px;
+}
+.foot .footcol{
+  width: 25%;
+  margin:0,20px,0,20px;
+
+}
+
+.foot .footcol h2 {
+  margin-bottom: 10px;
+
+}
+
+
+.foot .footcol ul li{
+  font-size: 14px;
+   line-height:20px; padding: 3px 10px 3px 10px; 
+}
 
 /*通用样式*/
 

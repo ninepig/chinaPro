@@ -13,9 +13,11 @@
   <script type="text/javascript">
       $(window).load(function(){
         //modified by wenjing , 禁止滚动条
+        //todo if screen less than a number open rolling  or close leftside
         $(document.body).addClass("html-body-overflow");
       	// modified by wenjing . 打开时候自动
   	   $(".container").addClass("open-sidebar");
+
         $("[data-toggle]").click(function() {
           var toggle_el = $(this).data("toggle");
           $(toggle_el).toggleClass("open-sidebar");
@@ -63,48 +65,49 @@
      <li class='last'><a href='#'><span>论坛</span></a></li>
    <li class='active has-sub'><a href='#'><span>套餐服务介绍</span></a>
       <ul>
-         <li class='has-sub'><a href='#'><span>套餐服务一</span></a>
-            <ul>
+         <li class='has-sub'><a href='#'><span>北美留学申请套餐</span></a>
+        <!--     <ul>
                <li><a href='#'><span>Sub Product</span></a></li>
                <li class='last'><a href='#'><span>Sub Product</span></a></li>
-            </ul>
+            </ul> -->
          </li>
-         <li class='has-sub'><a href='#'><span>套餐服务二</span></a>
-            <ul>
+         <li class='has-sub'><a href='#'><span>北美生活服务套餐</span></a>
+          <!--   <ul>
                <li><a href='#'><span>Sub Product</span></a></li>
                <li class='last'><a href='#'><span>Sub Product</span></a></li>
-            </ul>
+            </ul> -->
          </li>
       </ul>
    </li>
    <li><a href='#'><span>北美增值</span></a>
      <ul>
          <li class='has-sub'><a href='#'><span>资产管理</span></a>
-            <ul>
+          <!--   <ul>
                <li><a href='#'><span>Sub Product</span></a></li>
                <li class='last'><a href='#'><span>Sub Product</span></a></li>
-            </ul>
+            </ul> -->
          </li>
+         
           <li class='has-sub'><a href='#'><span>房产业务</span></a>
          <li class='has-sub'><a href='#'><span>法律业务</span></a>
             <li class='has-sub'><a href='#'><span>移民业务</span></a>
-            <ul>
+         <!--    <ul>
                <li><a href='#'><span>Sub Product</span></a></li>
                <li class='last'><a href='#'><span>Sub Product</span></a></li>
-            </ul>
+            </ul> -->
          </li>
       </ul>
 
    </li>
    <li class='last'><a href='#'><span>北美留学</span></a>
      <ul>
-         <li class='has-sub'><a href='#'><span>本硕留学</span></a>
-            <ul>
+         <li class='has-sub'><a href='#'><span>留学申请</span></a>
+           <!--  <ul>
                <li><a href='#'><span>Sub Product</span></a></li>
                <li class='last'><a href='#'><span>Sub Product</span></a></li>
-            </ul>
+            </ul> -->
          </li>
-         <li class='has-sub'><a href='#'><span>高中留学</span></a></li>
+         <li class='has-sub'><a href='#'><span>生活服务</span></a></li>
           <li class='has-sub'><a href='#'><span>夏令营</span></a></li>
       </ul>
       </li>
@@ -145,12 +148,44 @@
   <div class="card-container">
     <div class="card">
       <div class="face front">
-        <img width="300px" src="logo.svg">
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <h2>北美留学申请</h2>
+        <br/>
+        <p>美国高中本科硕士申请，专业，值得信赖</p>
       </div>
       <div class="face back">
-        <h3>Web Ascender</h3>
-        <p>Web Ascender is an innovation services company that truly cares about your happiness and the success of your project. We are leaders in web development, mobile applications and internet marketing, but our team doesn't just make beautiful digital products. We successfully solve real problems for people and businesses.</p>
-        <a href="/Contact" class="btn btn-block btn-outline">Learn More &rsaquo;</a>
+        <h3>北美留学申请</h3>
+        <br/>
+        <p>整理分析美国教育部、U.S.News、Peterson等7000多所院校资料，极大的提高申请成功率 
+        ，同时和国内新东方留学，海外众多院校紧密合作，保证录取率</p>
+       <br/>
+        <a href="/Contact" class="btn btn-block btn-outline">详细介绍 &rsaquo;</a>
+      </div>
+    </div>
+  </div>
+
+    <div class="card-container">
+  <div class="card">
+      <div class="face front">
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <h2>北美生活服务</h2>
+        <br/>
+        <p>涵盖美国生活方方面面，一站式服务</p>
+      </div>
+      <div class="face back">
+        <h3>北美生活服务</h3>
+        <br/>
+        <p>涵盖北美生活点点滴滴，租房，用车，家政服务，游玩服务，父母签证，紧急联系人，
+        让生活得到最好的保证</p>
+         <br/>
+          <br/>
+        <a href="/Contact" class="btn btn-block btn-outline">详细介绍 &rsaquo;</a>
       </div>
     </div>
   </div>
@@ -158,67 +193,234 @@
     <div class="card-container">
     <div class="card">
       <div class="face front">
-        <img width="300px" src="logo.svg">
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <h2>北美夏令营</h2>
+        <br/>
+        <p>强大的美国资源作为后盾，体验生活，学习，娱乐</p>
       </div>
       <div class="face back">
-        <h3>Web Ascender</h3>
-        <p>Web Ascender is an innovation services company that truly cares about your happiness and the success of your project. We are leaders in web development, mobile applications and internet marketing, but our team doesn't just make beautiful digital products. We successfully solve real problems for people and businesses.</p>
-        <a href="/Contact" class="btn btn-block btn-outline">Learn More &rsaquo;</a>
+
+        <h3>北美夏令营</h3>
+         <br/>
+        <p>to be decide</p>
+         <br/>
+        <a href="/Contact" class="btn btn-block btn-outline">详细介绍 &rsaquo;</a>
       </div>
     </div>
   </div>
-
-    <div class="card-container">
-    <div class="card">
-      <div class="face front">
-        <img width="300px" src="logo.svg">
+  
+    <div class ="applyingschooldetail fl">
+      
+      <div class = "schooldoc">
+         <h3> &nbsp;  &nbsp;  &nbsp;波士顿之家:美国大学及高中申请/转学/生活服务综合性服务机构</h3>
+         <br/>
+         <p>  &nbsp;  &nbsp;  &nbsp;波士顿之家是一家坐落于美国本土，有强大美国资源为后盾，且专注于高中、大学教育、配套生活服务的留学机构，地处全美最大教育资源地——马塞诸瑟州，拥有一支专业有效的团队。我们专注于为学生和家长提供最快捷，最优质的教育、生活服务，包括美国高中大学紧急转学和申请，背景提升，记录清除，学术辅导，浸入式教育体验，是您最可靠的生活教育机构。</p>
+         <p>  &nbsp;  &nbsp;  &nbsp;波士顿之家采用最新最全面的TOEFL/SAT等培训教材，并拥有优秀的教师资源，帮助孩子在考试中如虎添翼，轻松克服难题。同时拥有众多经验丰富的大学申请老师，提供申请咨询、文书撰写、面试经验等服务。</p>
+         <p>  &nbsp;  &nbsp;  &nbsp;波士顿之家同时提供一站式的生活服务，包括租房，用车，父母应急联系，父母签证问题解决，等系列生活服务。</p>
       </div>
-      <div class="face back">
-        <h3>Web Ascender</h3>
-        <p>Web Ascender is an innovation services company that truly cares about your happiness and the success of your project. We are leaders in web development, mobile applications and internet marketing, but our team doesn't just make beautiful digital products. We successfully solve real problems for people and businesses.</p>
-        <a href="/Contact" class="btn btn-block btn-outline">Learn More &rsaquo;</a>
+
+
+    </div>
+
+          </div>
+          <div class = "rightContentArea rightContentAreaGrey">
+        
+         <div class ="beimeizengzhi fl">
+      
+      <div class = "valuedoc">
+         <h3> &nbsp;  &nbsp;  &nbsp;波士顿之家:提供全方位美国资产管理/房屋业务/移民业务</h3>
+         <br/>
+         <p>  &nbsp;  &nbsp;  &nbsp;波士顿之家地产管理公司专精住宅管理及商业出租，我们是专门以服务房东与房客做出租及租后管理的资产管理公司，为各位工作忙碌与人在外州或人不在国内的房东们做租屋一条龙的租屋管理服务，提供给屋主及房客最高品质的管理，希望能协助所有的房东朋友们在家就能轻松收租，同时为需要各项商业或住宅不动产买卖的朋友们做投资客制化建议。</p>
+         <p>  &nbsp;  &nbsp;  &nbsp;波士顿之家同时提供最优秀的法律咨询业务，包括移民，房产，其他纠纷，希望能帮助国内国外的客户解决法律事务，致力于满足您的所有移民，房产需求。</p>
       </div>
     </div>
-  </div>
-
-
-          </div>
-          <div class = "rightContentArea rightContentAreaGrey">北美增值
-
-
-
-
-
-
-          </div>
-          <div class = "rightContentArea">套餐服务</div>
-
-  <div class = "rightContentArea rightContentAreaGrey"> 
-
-	<div class="card-container">
+        <div class="card-container">
     <div class="card">
-      <div class="face front">
-        <img width="300px" src="logo.svg">
+      <div class="face front2">
+       <br/>
+        <br/>
+        <br/>
+        <br/>
+        <h2>资产管理</h2>
+        <br/>
+        <p>多年资产管理公司经验，熟悉美国业务流程</p>
       </div>
-      <div class="face back">
-        <h3>Web Ascender</h3>
-        <p>Web Ascender is an innovation services company that truly cares about your happiness and the success of your project. We are leaders in web development, mobile applications and internet marketing, but our team doesn't just make beautiful digital products. We successfully solve real problems for people and businesses.</p>
+      <div class="face back2">
+        <h3>资产管理</h3>
+           <br/>
+        <p>房屋租赁，资产评估，房客管理，房屋清洁，房屋维护，投资建议，将客户的房产视同自己的财产，让用户足不出户就能轻松最大化投资</p>
+          <br/>
+          <br/>
         <a href="/Contact" class="btn btn-block btn-outline">Learn More &rsaquo;</a>
       </div>
     </div>
   </div>
   <div class="card-container">
     <div class="card">
-      <div class="face front">
-        <img width="300px" src="logo.svg">
+      <div class="face front2">
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <h2>房屋业务</h2>
+        <br/>
+        <p>强大房产资源作为后盾，快捷，准确，周到</p>
       </div>
-      <div class="face back">
-        <h3>Web Ascender</h3>
-        <p>Web Ascender is an innovation services company that truly cares about your happiness and the success of your project. We are leaders in web development, mobile applications and internet marketing, but our team doesn't just make beautiful digital products. We successfully solve real problems for people and businesses.</p>
+      <div class="face back2">
+        <h3>房屋业务</h3>
+           <br/>
+        <p>提供房产租赁，房产买卖，拥有麻州地区精品房源，以及大量agent资源，快捷，精准的完成客户的房产需求</p>
+          <br/>
+          <br/>
         <a href="/Contact" class="btn btn-block btn-outline">Learn More &rsaquo;</a>
       </div>
     </div>
   </div>
+  <div class="card-container">
+    <div class="card">
+      <div class="face front2">
+      <br/>
+        <br/>
+        <br/>
+        <br/>
+        <h2>法律/移民业务</h2>
+        <br/>
+        <p>成熟的律师团队，致力于满足客户移民房产需求。</p>
+      </div>
+      <div class="face back2">
+        <h3>法律/移民业务</h3>
+        <p>拥有优秀律师团队，多年北美移民case经验，地产法律经验，EB5,EB3,H1B。 </p>
+          <br/>
+          <br/>
+        <a href="/Contact" class="btn btn-block btn-outline">Learn More &rsaquo;</a>
+      </div>
+    </div>
+  </div>
+
+
+      </div>
+          <div class = "rightContentArea"> 
+
+  <div class ="blankpacefortaocan fl">
+      
+
+
+    </div>
+  <div class="card-container">
+    <div class="card">
+      <div class="face front">
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <h2>北美留学申请套餐</h2>
+        <br/>
+        <p>精心定制的留学申请各项服务</p>
+      </div>
+      <div class="face back">
+        <h3>留学申请套餐</h3>
+        <br/>
+        <p>从学校咨询，学校详细调查，考试辅导，文书撰写，全方位为客户提供留学申请的方方面面</p>
+       <br/>
+        <a href="/Contact" class="btn btn-block btn-outline">详细介绍 &rsaquo;</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="card-container">
+  <div class="card">
+      <div class="face front">
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <h2>北美生活服务套餐</h2>
+        <br/>
+        <p>北美生活服务套餐简介</p>
+      </div>
+      <div class="face back">
+        <h3>北美生活服务</h3>
+        <br/>
+        <p>涵盖北美生活点点滴滴，租房，用车，家政服务，游玩服务，父母签证，紧急联系人，
+        让生活得到最好的保证</p>
+         <br/>
+          <br/>
+        <a href="/Contact" class="btn btn-block btn-outline">详细介绍 &rsaquo;</a>
+      </div>
+    </div>
+  </div>
+
+  
+    <div class ="applyingschooldetail fl">
+      
+      <div class = "schooldoc">
+         <h3> &nbsp;  &nbsp;  &nbsp;波士顿之家:定制式套餐服务</h3>
+         <br/>
+         <p>  &nbsp;  &nbsp;  &nbsp;波士顿之家独特的定制式套餐服务，让用户可以自由选择我们提供关于留学申请，以及北美生活的各项服务</p>
+         <p>  &nbsp;  &nbsp;  &nbsp;北美留学套餐包括本科硕士学校咨询，学校详细调查，考试辅导，文书撰写，转学业务，对于高中生包括住家联系。用户可以选择其中任意一项服务，亦或是全部服务。</p>
+         <p>  &nbsp;  &nbsp;  &nbsp;北美生活套餐包括租房，用车，驾校，快递，家政服务，英语私教，游玩服务，父母签证，紧急联系人，涵盖生活点点滴滴。</p>
+  
+      </div>
+
+
+    </div>
+
+
+    </div>
+
+  <div class = "aboutusContentArea rightContentAreaGrey"> 
+
+    <div class = "foot">
+    <div class = "footcol fl"> 
+      <h2>合作伙伴</h2>
+      <ul>
+        <li><a href="#">aaaa</a></li>
+         <li><a href="#">aaaa</a></li>
+          <li><a href="#">aaaa</a></li>
+           <li><a href="#">aaaa</a></li>
+            <li><a href="#">aaaa</a></li>
+             <li><a href="#">aaaa</a></li>
+      </ul>
+    </div>
+        <div class = "footcol fl"> 
+       <h2>使（领）馆信息</h2>
+      <ul>
+        <li><a href="http://www.china-embassy.org/">中国驻华盛顿大使馆</a></li>
+         <li><a href="http://www.nyconsulate.prchina.org/chn/">中国驻纽约总领事馆</a></li>
+          <li><a href="http://www.chinaconsulatechicago.org/">中国驻芝加哥总领事馆</a></li>
+           <li><a href="http://www.chinahouston.org/">中国驻休斯敦总领事馆</a></li>
+            <li><a href="http://www.chinaconsulatesf.org/">中国驻旧金山总领事馆</a></li>
+             <li><a href="http://losangeles.china-consulate.org/">中国驻洛杉矶总领事馆</a></li>
+      </ul>
+    </div>
+
+  <div class = "footcol fl"> 
+       <h2>中国学联会链接</h2>
+      <ul>
+        <li><a href="http://www.hcssa.org/">哈佛大学中国学生会</a></li>
+         <li><a href="http://cssa.mit.edu/">麻省理工学院中国学生会</a></li>
+          <li><a href="http://nuweb9.neu.edu/cssa/">东北大学学生会</a></li>
+           <li><a href="http://bucssa.net/">波士顿大学中国学生会</a></li>
+            <li><a href="http://umbcssa.org/">麻省大学中国学生会</a></li>
+             <!-- <li><a href="#">aaaa</a></li> -->
+      </ul>
+    </div>
+      <div class = "footcol fl"> 
+       <h2>关于我们</h2>
+      <ul>
+        <li><a href="#">联系我们</a></li>
+         <li><a href="#">招聘信息</a></li>
+          <li><a href="#">我们的简介</a></li>
+      </ul>
+    </div>
+
+
+
+    </div>
+
   </div>
 
 
