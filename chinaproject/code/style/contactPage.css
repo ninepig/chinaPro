@@ -1,0 +1,137 @@
+@charset "utf-8";
+/* 浏览器清零 */
+body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,form,fieldset,table,td,img,div,dl,dt,dd,input{margin:0;padding:0;}
+body{font-size:12px;}
+img{border:none;}
+ul,ol{list-style:none;}
+input,select,textarea{outline:none; border:none; background:#FFF;}
+textarea{resize:none;}
+a{text-decoration:none;}
+
+/*清浮动*/
+.clearfix:after{content:"";display:block;clear:both;}
+.clearfix{zoom:1;}
+
+
+ 
+
+
+/*第三方条*/
+.thirdtoolbar{height: 30px;background: #F5F5F5;opacity: 0.5;}
+.thirdtoolbar a{font-size:15px;line-height:30px;}
+.login_button{padding-right: 50px;}
+
+/*头部样式*/
+.top-container{height: 70px;background:#F5F5F5;}
+.logo-href{padding-left:20px;}
+.top-right{line-height: 50px;font-size:20px;padding-right:50px;}
+
+.header{width: 85%;margin:0 auto;}
+
+
+/*mainPart样式*/
+
+ .maincontent{
+  width: 100%;
+  height: 1200px;
+ }
+
+.consultingForm{
+  width: 40%;
+  height: 700px;
+  margin-left: 150px;
+  margin-top: 30px;
+  margin-right: 50px;
+}
+ form input{
+  height: 40px;
+  width: 280px;
+  margin-right: 10px;
+  border:1px solid #cccccc;
+  border-radius:10px;
+  font-size: 20px;
+ }
+ form select{
+    height: 40px;
+  width: 280px;
+  margin-right: 10px;
+  border:1px solid #cccccc;
+  border-radius:10px;
+  font-size: 20px;
+ }
+ .emailinput{
+  width: 580px;
+ }
+ form textarea{
+   width: 580px;
+    height: 240px;
+    font-size: 20px;
+     border:1px solid #cccccc;
+  border-radius:10px;
+  font-size: 20px;
+ }
+ .submitbuttondiv{
+  width: 50%;
+  margin:0 auto;
+ }
+
+  .contactinfo{
+    margin-top: 30px;
+    width: 30%;
+    height: 700px;
+    background:  rgb(37, 137, 198);
+    padding: 30px 0 0 40px;
+  }
+  .contactinfo p{
+    font-size: 20px;
+    font-weight: bold;
+    color:white;
+  }
+
+
+/*页尾介绍*/
+.foot{
+  width: 100%;
+  height: 200px;
+  padding-top: 30px;
+  padding-left: 50px;
+}
+.foot .footcol{
+  width: 25%;
+  margin:0,20px,0,20px;
+
+}
+
+.foot .footcol h2 {
+  margin-bottom: 10px;
+
+}
+
+
+.foot .footcol ul li{
+  font-size: 14px;
+   line-height:20px; padding: 3px 10px 3px 10px; 
+}
+
+/*通用样式*/
+
+.comWidth{width:100%; margin:0 auto; }
+.fl{float:left;}
+.fr{float:right;}
+
+/*禁止滚动条*/
+  .html-body-overflow
+   {
+     overflow-x:hidden;
+     /*overflow-y:hidden;*/
+  }
+
+  /*test part mark card center*/
+/*
+  .cardcenter{
+
+        margin-left: 500px;
+
+  
+
+  }*/
