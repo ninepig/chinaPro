@@ -36,65 +36,6 @@ a{text-decoration:none;}
   height: 800px;
  }
 
-.consultingForm{
-  width: 40%;
-  height: 700px;
-  margin-left: 150px;
-  margin-top: 30px;
-  margin-right: 50px;
-}
- form input{
-  height: 40px;
-  width: 280px;
-  margin-right: 10px;
-  border:1px solid #cccccc;
-  border-radius:10px;
-  font-size: 20px;
- }
- form select{
-    height: 40px;
-  width: 280px;
-  margin-right: 10px;
-  border:1px solid #cccccc;
-  border-radius:10px;
-  font-size: 20px;
- }
- .emailinput{
-  width: 580px;
- }
- form textarea{
-   width: 580px;
-    height: 240px;
-    font-size: 20px;
-     border:1px solid #cccccc;
-  border-radius:10px;
-  font-size: 20px;
- }
- .submitbuttondiv{
-  width: 50%;
-  margin:0 auto;
- }
-
-  .contactinfo{
-    margin-top: 30px;
-    width: 30%;
-    height: 700px;
-    background:  rgb(37, 137, 198);
-    padding: 30px 0 0 40px;
-  }
-  .contactinfo p{
-    font-size: 20px;
-    font-weight: bold;
-    color:white;
-  }
-
-
-.footcontainer{
-  width: 80%;
-  height: 400px;
-  margin:0 auto;
-}
-
 /*“≥Œ≤ΩÈ…‹*/
 .foot{
   width: 100%;
