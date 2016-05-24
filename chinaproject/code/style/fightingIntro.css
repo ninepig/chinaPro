@@ -31,9 +31,22 @@ a{text-decoration:none;}
 
 /*mainPartÑùÊ½*/
 
+
+.flighintTop{
+  width: 80%;
+  height: 300px;
+  margin: 0 auto;
+}
+.flighintTop h2{
+
+  text-align: center;
+
+}
+
  .maincontent{
   width: 100%;
-  height: 800px;
+  height: 1300px;
+ /* margin-bottom: 20px;*/
  }
 
 .consultingForm{
