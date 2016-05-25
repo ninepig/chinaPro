@@ -1,5 +1,5 @@
 @charset "utf-8";
-/* 浏览器清零 */
+/* 盲炉脌脌脝梅脟氓脕茫 */
 body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,form,fieldset,table,td,img,div,dl,dt,dd,input{margin:0;padding:0;}
 body{font-size:12px;}
 img{border:none;}
@@ -8,7 +8,7 @@ input,select,textarea{outline:none; border:none; background:#FFF;}
 textarea{resize:none;}
 a{text-decoration:none;}
 
-/*清浮动*/
+/*脟氓赂隆露炉*/
 .clearfix:after{content:"";display:block;clear:both;}
 .clearfix{zoom:1;}
 
@@ -16,12 +16,12 @@ a{text-decoration:none;}
  
 
 
-/*第三方条*/
+/*碌脷脠媒路陆脤玫*/
 .thirdtoolbar{height: 30px;background: #F5F5F5;opacity: 0.5;}
 .thirdtoolbar a{font-size:15px;line-height:30px;}
 .login_button{padding-right: 50px;}
 
-/*头部样式*/
+/*脥路虏驴脩霉脢陆*/
 .top-container{height: 70px;background:#F5F5F5;}
 .logo-href{padding-left:20px;}
 .top-right{line-height: 50px;font-size:20px;padding-right:50px;}
@@ -29,26 +29,154 @@ a{text-decoration:none;}
 .header{width: 85%;margin:0 auto;}
 
 
-/*mainPart样式*/
-.maincontent{
-  width: 80%;
+/*mainPart脩霉脢陆*/
+
+ .maincontent{
+  margin-top: 20px;
+  width: 100%;
   height: 1200px;
+ }
+
+  .ouradvantage{
+   
+    width: 80%;
+    margin:0 auto;
+  }
+  .ouradvantagetitle{
+    /*width: 200px*/
+    height: 1px;
+    border-top: 2px solid #ddd;
+    text-align: center;
+    margin-top: 50px;
+}
+.ouradvantagetitle span{
+    position: relative;
+    top: -8px;
+    font-size: 20px;
+    background: #fff;
+    padding: 0 20px;
 }
 
+.advantagecolumn{
+  margin-top: 50px;
+  width: 100%;
+  height: 530px;
+  padding-left: 50px;
+}
+.subColoumn{
+  width: 20%;
+  /*modified by wenjing  for mac showing*/
+  background: #74badb;
+  height: 500px;
+  margin-right: 20px;
+     border-radius:10px;
+    -moz-border-radius:10px; /* Old Firefox */
+    box-shadow: 4px 4px 2px #888888;
+    color: #FFF;
+}
 
+.subadvantageTitle{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
 
+}
+.advantageDetail{
+  margin: 10px;
 
+}
+.advantageDetail li{
 
+/*padding-left: 30px;*/
+margin-left: 40px;
+ list-style-type: square;
+font-size: 16px;
+line-height: 25px;
+/*text-align: center;*/
+/*padding: 10px,0,10px,0;
+*/
+}
 
-
-
-.footcontainer{
+.universityintroduction{
+  padding-top: 30px;
   width: 80%;
-  height: 400px;
   margin:0 auto;
+  padding-bottom: 30px;
+}
+.universityintroduction p{
+  font-size: 13px;
+  line-height: 20px;
+ }
+
+.introductionList{
+
+ list-style-type: square;
+font-size: 18px;
+line-height: 30px;
+
 }
 
-/*页尾介绍*/
+
+
+
+
+.applyingprocess{
+  width:100%;
+  height: 300px;
+  margin-top:30px;
+  padding-left: 50px;
+  /*background: red; */
+}
+.subapplyingprocess{
+  width: 15%;
+  height: 250px;
+  margin:25px 20px 25px 10px;
+  padding-top: 20px;
+  padding-left: 20px;
+  color: #000;
+  background: #FFE4B5;
+}
+.subapplyingprocess p{
+  padding-left: 15px;
+  padding-right: 20px;
+}
+.somethingspeical{
+
+  width: 30%;
+  margin:0 auto;
+  height: 100px;
+}
+.clickforcontact{
+  width: 100%;
+  height: 60px;
+  /*padding-top: 10px;*/
+  background: #74badb;
+  margin-top: 10px;
+       border-radius:15px;
+    -moz-border-radius:15px; /* Old Firefox */
+    box-shadow: 4px 4px 2px #888888;
+}
+.clickforcontact h2{
+  text-align: center;
+}
+
+.someexpamle{
+   width:100%;
+  height: 450px;
+  margin-top:30px;
+  padding-left: 50px;
+}
+.expamle{
+   width: 25%;
+  height: 350px;
+  margin:25px 20px 25px 10px;
+  padding-top: 20px;
+  padding-left: 20px;
+  color: #000;
+  background: #FFE4B5;
+}
+
+/*脪鲁脦虏陆茅脡脺*/
 .foot{
   width: 100%;
   height: 200px;
@@ -72,13 +200,13 @@ a{text-decoration:none;}
    line-height:20px; padding: 3px 10px 3px 10px; 
 }
 
-/*通用样式*/
+/*脥篓脫脙脩霉脢陆*/
 
 .comWidth{width:100%; margin:0 auto; }
 .fl{float:left;}
 .fr{float:right;}
 
-/*禁止滚动条*/
+/*陆没脰鹿鹿枚露炉脤玫*/
   .html-body-overflow
    {
      overflow-x:hidden;
