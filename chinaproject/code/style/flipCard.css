@@ -54,12 +54,13 @@
     box-shadow: 4px 4px 2px #888888;
     }
     .face.front{
-    background:#4CAF50;
+    background:#5db761;
     transform: rotateY(0deg);
     }
 
        .face.front2{
-    background:#555555;
+        
+    background:#383838;
     transform: rotateY(0deg);
     }
 
@@ -81,7 +82,7 @@
     padding: 20px;
     color: white;
     text-align: left;
-    background-color: #555555;
+    background-color: #383838;
     }
 
       .face.back {
@@ -101,7 +102,7 @@
     padding: 20px;
     color: white;
     text-align: left;
-    background-color: #555555;
+    background-color: #383838;
     }
     .card a.btn.btn-block{display:block;}
     .card a.btn.btn-outline{background:transparent;border:1px solid #fff;border-radius:3px;padding:10px;color:#fff;text-align:center;text-decoration:none;}

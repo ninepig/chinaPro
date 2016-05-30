@@ -12,7 +12,27 @@ a{text-decoration:none;}
 .clearfix:after{content:"";display:block;clear:both;}
 .clearfix{zoom:1;}
 
+/*leftside floating div*/
 
+#float_left{
+  height: 100px;
+  width: 80px;
+      background: #4CAF50;
+          /*background:black;*/
+          z-index: 0;
+          box-shadow: 2px 2px 2px #888888;
+}
+
+#float_left ul li{
+  line-height: 40px;
+}
+
+
+#float_left ul li a{
+  font-size: 18px;
+  color: white;
+ 
+}
  
 
 
@@ -181,6 +201,27 @@ line-height: 25px;
   padding-left: 20px;
   color: #000;
   background: #FFE4B5;
+}
+
+
+.warningNewList{
+
+   height: 100px;
+   margin:0 auto;
+
+}
+
+.warningNewsul{
+  margin-top: 50px;
+  margin-left: 400px;
+
+}
+.warningNewsul li{
+   list-style-type: square;
+   /*margin-left: 50px;*/
+  line-height: 35px;
+  font-size: 25px;
+  color: black;
 }
 
 /*“≥Œ≤ΩÈ…‹*/

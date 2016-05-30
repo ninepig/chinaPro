@@ -29,17 +29,43 @@ a{text-decoration:none;}
 .header{width: 85%;margin:0 auto;}
 
 
+
+
+/*leftside floating div*/
+
+#float_left{
+  height: 100px;
+  width: 80px;
+      background: #4CAF50;
+          /*background:black;*/
+          z-index: 0;
+          box-shadow: 2px 2px 2px #888888;
+}
+
+#float_left ul li{
+  line-height: 40px;
+}
+
+
+#float_left ul li a{
+  font-size: 18px;
+  color: white;
+ 
+}
+
+
 /*mainPartÑùÊ½*/
 
  .maincontent{
   margin-top: 20px;
-  width: 100%;
+  width: 80%;
+     margin:0 auto;
   height: 1200px;
  }
 
   .ouradvantage{
    
-    width: 80%;
+
     margin:0 auto;
   }
   .ouradvantagetitle{
